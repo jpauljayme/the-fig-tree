@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-		{% if title %}
-            <title>{{ title}} - Microblog</title>
-        {% else %}
-            <title>Welcome to Microblog</title>
-        {% endif %}
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>The Fig Tree</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
 	<head>
     <body>
-        <header>
-            <h1>The Fig Tree</h1>
-            <nav>
-                <a href="/index">Home</a>
-            </nav>
-        </header>
-        <hr>
-        {% block content %}{% endblock %}
-        
+        <div class="wrapper">
+            <header class="header">
+                <h1 class="header--title">The Fig Tree</h1>
+                <!-- <nav>
+                    <a href="/index.html">Home</a>
+                </nav> -->
+            </header>
+    
+            {% block content %}{% endblock %}
+        </div>
     </body>
 </html>

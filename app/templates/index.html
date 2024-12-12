@@ -1,10 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-    {% for post in posts %}
-    <div>
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.content | safe }}</p>
-    </div>
-    {% endfor %}
+    <main class="posts">
+        <ul>
+            {% for post in posts %}
+                <li>
+                    <article class="posts__article">
+                    {{ post.content[0:200]  | safe }}
+                    </article>
+            </li>
+            {% endfor %}
+        </ul>
+    </main>
 {% endblock %}

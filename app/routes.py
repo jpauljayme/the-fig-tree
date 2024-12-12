@@ -12,21 +12,28 @@ def load_posts():
 			with open(f'app/posts/{filename}', 'r') as f:
 				content = f.read()
 				html_content = markdown.markdown(content)
+				id = filename.split('.')[0]
 				post = {
-					'title': filename[:-3].replace('-', ' ').title(),
+					'id': id,
 					'content': html_content
 				}
 				posts.append(post)
 	
 	return posts
 
+posts = load_posts()
+
 @app.route('/')
 @app.route('/index.html')
 def index():
-	posts = load_posts()
-
 	return render_template('index.html', 
 						posts=posts
 					)
 
+@app.route('/post')
+def showPost(id):
+	for post in posts:
+		if post.id == id:
+			return render_template('post.html',
+						  post=post)
 

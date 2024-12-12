@@ -10,5 +10,5 @@ def url_generator():
     
 if __name__ == '__main__':
     # dev
-    # app.run(debug=True)
+    app.run(debug=True)
     freezer.freeze()
