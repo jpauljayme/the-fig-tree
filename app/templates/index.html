@@ -6,7 +6,7 @@
             {% for post in posts %}
                 <li class="posts__ul__post">
                     <a class="posts__ul__post--link" href="{{ url_for('showPost', postId = post.id) }}">
-                        {{ post.title.title()}}
+                        {{ post.title}}
                     </a>
                     <span>{{ post.date }}</span>
                     <!-- <article  class="posts__article">
