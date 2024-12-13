@@ -36,7 +36,7 @@ def index():
     return render_template("index.html", posts=posts)
 
 
-@app.route("/post/<int:postId>")
+@app.route("/post/<int:postId>.html")
 def showPost(postId):
     found = next((post for post in posts if post.id == postId))
     return render_template("post.html", post = found)
