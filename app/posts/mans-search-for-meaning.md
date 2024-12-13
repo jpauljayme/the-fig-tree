@@ -1,6 +1,6 @@
 ---
 id: 14
-title: Man's Search for Meaning by Viktor E. Frankl
+title: "Man's Search for Meaning by Viktor E. Frankl"
 date: February 18, 2024
 ---
 

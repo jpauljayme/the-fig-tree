@@ -1,6 +1,6 @@
 ---
 id: 11
-title: The Anxious Perfectionist: How to Manage Perfectionism-Driven Anxiety Using Acceptance and Commitment Therapy by  Clarissa W. Ong, Randy Frost, Michael P. Twohig 
+title: "The Anxious Perfectionist: How to Manage Perfectionism-Driven Anxiety Using Acceptance and Commitment Therapy by  Clarissa W. Ong, Randy Frost, Michael P. Twohig"
 date: January 21, 2024
 ---
 

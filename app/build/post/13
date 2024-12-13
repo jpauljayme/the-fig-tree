@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>The Fig Tree</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/static/css/index.css">
+        
+        <!-- HTMX -->
+        <script src="/static/js/htmx.min.js" defer></script>
+	<head>
+    <body hx-boost="true">
+        <div class="wrapper">
+            <header class="header">
+                <h1 class="header--title">
+                    <a class="header__title--text" href="/index.html">The Fig Tree</a>
+                </h1>
+                <!-- <nav>
+                    <a href="/index.html">Home</a>
+                </nav> -->
+            </header>
+    
+            
+<main class="post">
+    <article class="post__article">
+        <h2>Notes from the Underground by Fyodor Dostoevsky</h2>
+<h3>February 5, 2024</h3>
+<p>He is an anti-hero in the most cynical manner. Yet he lives in most of us. </p>
+<p>A twenty-five-year-old man's admittance to internal debauchery. Embarrassing... to spell the words out. Yet the need to avoid confrontation of human emotions; of intense jealousy of unmet possibilities lived by other people. The alienation of how society wills me to become vis-a-vis existential plight to be who I need to be - cracks in the surface running deep into the Earth's core. The repetitive self-description of "a wicked man" is as most vulnerable candor one can possess.</p>
+<p>There is a lot to unpack - the first part of "Underground" brim of philosophical ruminations. On the next part, Apropos of the Wet Snow, his preclude to what has happened before he went underground, a man full of avoidance, anguish, sadness, albeit an self-awareness that placates him at his feet.</p>
+<p>Time will tell when I fully resonate and be objective in the earnest manner. I will read this again sometime this year, after further enrichment of the mind.</p>
+<p>Rating: 5 stars</p>
+<p>For more details on the book, click 
+<a href="https://app.thestorygraph.com/books/00b1538d-956f-4f9e-8d0d-f5d821a26e58" target="_blank" rel="noopener noreferrer">here</a> to view in Storygraph.</p>
+    </article>
+</main>
+
+            <footer>
+                <span>© 2024 The Fig Tree</span>
+            </footer>
+        </div>
+    </body>
+</html>

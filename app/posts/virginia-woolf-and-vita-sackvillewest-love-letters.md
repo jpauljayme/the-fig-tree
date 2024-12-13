@@ -1,6 +1,6 @@
 ---
 id: 15
-title: Virginia Woolf and Vita Sackville-West: Love Letters by Virginia Woolf and Vita Sackville-West
+title: "Virginia Woolf and Vita Sackville-West: Love Letters by Virginia Woolf and Vita Sackville-West"
 date: February 21, 2024
 ---
 

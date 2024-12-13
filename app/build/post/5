@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>The Fig Tree</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/static/css/index.css">
+        
+        <!-- HTMX -->
+        <script src="/static/js/htmx.min.js" defer></script>
+	<head>
+    <body hx-boost="true">
+        <div class="wrapper">
+            <header class="header">
+                <h1 class="header--title">
+                    <a class="header__title--text" href="/index.html">The Fig Tree</a>
+                </h1>
+                <!-- <nav>
+                    <a href="/index.html">Home</a>
+                </nav> -->
+            </header>
+    
+            
+<main class="post">
+    <article class="post__article">
+        <h2>The Diary of a Young Girl by Anne Frank</h2>
+<h3>September 24, 2023</h3>
+<p>Surrounded by the gestapo, air raids, and the cruel guns, the humble, perplex, and curious ruminations of a teenager is a dazzling and heartbreaking beacon during the infamous World War 2. Hiding from the persecution of Nazis, the Franks, van Daans, and  Mr. Dussel, try to recreate their uprooted lives waiting for the end of the German occupation and Jewish eradication. </p>
+<p>Anne Frank is anything but a myriad of quirkiness, wit, empathy, and curiosity. Struggling in adapting living in closed quarters for more than 2 years, she has her fountain pen to articulate her yearning for peace not only with the world but within her family. A voracious learner, the war did not stop her from feeding her mind with languages, stories, textbooks, and a sense of hopefulness within. She blossoms into a beautiful flower under oppression. Finding love in an unkind soil is a miracle in itself. She is a patient daughter, a loving sister, and a nourishing companion. Vulnerability is her pen and paper against the impending doom. She represents the demoralization of an entire generation, regardless of age. </p>
+<p>Is all hope lost in the turmoil of war? Can a child's yearning be so radically different from an adult? Why does history tend to repeat itself? Human life should be regarded of the highest level of priority and justifying war is never a rational option for any country. History never lies. We are fortune enough to read the remnants of a child's memories. Let us never become blind to the evil propaganda spreading in the atmosphere. </p>
+<p>For more details on the book, click 
+<a href="https://app.thestorygraph.com/books/48bc2d01-8384-4660-87f8-163f77f97080" target="_blank" rel="noopener noreferrer">here</a> to view in Storygraph.</p>
+    </article>
+</main>
+
+            <footer>
+                <span>© 2024 The Fig Tree</span>
+            </footer>
+        </div>
+    </body>
+</html>

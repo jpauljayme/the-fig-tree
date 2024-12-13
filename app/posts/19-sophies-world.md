@@ -1,6 +1,6 @@
 ---
 id: 19
-title: Sophie's World by Jostein Gaarder
+title: "Sophie's World by Jostein Gaarder"
 date: June 12, 2024
 ---
 

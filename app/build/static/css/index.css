@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: "Source Code Pro Bold";
-    src: url("/static/font/SOurceCode-Pro-Bold.ttf") format("truetype");
+    src: url("/static/font/SOurceCodePro-Bold.ttf") format("truetype");
 }
 
 *{
@@ -53,7 +53,8 @@ span, p, a{
 
 .wrapper{
     display: grid;
-    background-color: #EBE8E2;
+    background-color: #F5F5ED;
+    
 }
 
 .header{
@@ -70,10 +71,24 @@ span, p, a{
     margin-bottom: 20px;
 }
 
+.posts__ul__post--link{
+    color: #605F4B;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
 
 /* POST.HTML */
 .post{
     padding: 20px;
+}
+
+.post__article h2, h3 {
+    font-family: 'Source Code Pro Bold';
 }
 
 /* Laptop */

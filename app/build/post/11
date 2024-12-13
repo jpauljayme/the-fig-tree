@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>The Fig Tree</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/static/css/index.css">
+        
+        <!-- HTMX -->
+        <script src="/static/js/htmx.min.js" defer></script>
+	<head>
+    <body hx-boost="true">
+        <div class="wrapper">
+            <header class="header">
+                <h1 class="header--title">
+                    <a class="header__title--text" href="/index.html">The Fig Tree</a>
+                </h1>
+                <!-- <nav>
+                    <a href="/index.html">Home</a>
+                </nav> -->
+            </header>
+    
+            
+<main class="post">
+    <article class="post__article">
+        <h2>The Anxious Perfectionist: How to Manage Perfectionism-Driven Anxiety Using Acceptance and Commitment Therapy by  Clarissa W. Ong, Randy Frost, Michael P. Twohig</h2>
+<h3>January 21, 2024</h3>
+<p>Three months since I stopped working and the exhaustion permeating my internal landscape is never leaving. I want it gone this moment. Ever the inquisitive mind, a symptom of the coherence trap, resolved my mind to climb down history’s ladders and recount my history. I expect it to prove answers to my dilemma. One step. Two steps. There’s a bus stop in periphery. As I steel my step in this direction, the voices grow in frequency. I let on. I finally boarded the vehicle that will take me into the neighborhood of my mind. It’s not 10 minutes and I arrive at the meticulously hidden birthplace. A cocoon of childhood playthings, failures, successes, and aspirations. I steeled my feet to walk. Breathe.</p>
+<p>As I cross the pedestrian, I saw the solitary desk I sat in the classroom. Lo and behold, the flashbacks of the achiever and the fear of fucking up ensued. The next street did not disappoint! Where the obnoxious, capitalistic leaders of my previous companies waved their cantankerous egos. </p>
+<p>A huge relief came in the face of an empty lot at the end of the boundary. I planted my feet in the grassy land. Breathe. I open my notebook and write down what this short trip proved to me.</p>
+<p>I am a Perfectionist. An anxious one at that. I have practiced Avoidance in all of my commitments on the workplace, on my relationships, and on myself. The inner  mind critic is cruel and unforgiving; that I am useless, worthless, an impostor, a failed programmer and writer, and undeserving of love. I unanimously believed these labels and stories. No more.</p>
+<p>The book has given me a newer sense of self. It was there all along. He just needed to be reclaimed from the tormentous lake of Maladaptive Perfectionism. I will remember to breathe, observe my thoughts, make space for them, and make sure I do not contend with the unhelpful ones. In this plot of land, I commemorate the acceptance of my histories.  </p>
+<p>After the ceremony, I readily devise a blueprint. I will create new goals that align with my values. Be patient. Breathe in between takes. This is a lifelong journey. Practice self-kindness. I deserve to love, care, and to live by my own values. I am committing to this genuine, mindful way of living. I believe Acceptance and Commitment Therapy will me along each small step into bigger leaps.</p>
+<p>Rating: 5 stars</p>
+<p>For more details on the book, click 
+<a href="https://app.thestorygraph.com/books/4b032f4b-f48f-45f5-9464-2791a822dfcb" target="_blank" rel="noopener noreferrer">here</a> to view in Storygraph.</p>
+    </article>
+</main>
+
+            <footer>
+                <span>© 2024 The Fig Tree</span>
+            </footer>
+        </div>
+    </body>
+</html>
