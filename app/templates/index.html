@@ -5,10 +5,14 @@
         <ul>
             {% for post in posts %}
                 <li>
-                    <article class="posts__article">
-                    {{ post.content[0:200]  | safe }}
-                    </article>
-            </li>
+                    <a href="{{ url_for('showPost', postId = post.id) }}">
+                        {{ post.title.title()}}
+                    </a>
+                    <p>{{ post.date }}</p>
+                    <!-- <article  class="posts__article">
+                    {{ post.content[0:200]   | safe }}
+                    </article> -->
+                </li>
             {% endfor %}
         </ul>
     </main>

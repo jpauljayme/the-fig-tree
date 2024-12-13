@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("/static/font/CormorantGaramond-Regular.ttf") format("truetype");
+    
+}
+
+@font-face {
+    font-family: "Cormorant Garamond Bold";
+    src: url("/static/font/CormorantGaramond-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    src: url("/static/font/SourceCodePro-Regular.ttf") format("truetype");
+    
+}
+
+@font-face {
+    font-family: "Source Code Pro Bold";
+    src: url("/static/font/SOurceCode-Pro-Bold.ttf") format("truetype");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: open-sans;
+}
+
+body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: "Cormorant Garamond Bold";
+}
+
+p{
+    font-family: 'Source Code Pro';
+}
+
+.wrapper{
+    display: grid;
+    background-color: #EBE8E2;
+}
+
+.header{
+    background-color: #AFAD96;
+}
+
+.header--title{
+    color: #605F4B;
+}
+/* Laptop */
+@media (min-width: 760px) {
+    
+}

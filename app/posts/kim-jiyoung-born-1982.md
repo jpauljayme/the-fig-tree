@@ -1,4 +1,10 @@
-## Kim-Jiyoung : Born 1982 by Cho Nam-joo
+---
+id: 2
+title: Kim-Jiyoung, Born 1982 by Cho Nam-joo
+date: November 25, 2024
+---
+
+## Kim-Jiyoung, Born 1982 by Cho Nam-joo
 
 ### November 25, 2024
 

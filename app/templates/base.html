@@ -4,12 +4,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
         <title>The Fig Tree</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+        
+        <!-- HTMX -->
+        <script src="{{ url_for('static', filename='js/htmx.min.js') }}" defer></script>
 	<head>
-    <body>
+    <body hx-boost="true">
         <div class="wrapper">
             <header class="header">
-                <h1 class="header--title">The Fig Tree</h1>
+                <h1 class="header--title">
+                    <a href="{{ url_for('index')}}">The Fig Tree</a>
+                </h1>
                 <!-- <nav>
                     <a href="/index.html">Home</a>
                 </nav> -->

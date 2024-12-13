@@ -1,4 +1,10 @@
-## [The Year of Magical Thinking by Joan Didion](http://easeqw.com)
+---
+id: 1
+title: The Year of Magical Thinking by Joan Didion
+date: November 9, 2024
+---
+
+## The Year of Magical Thinking by Joan Didion
 
 ### November 9, 2024
 
