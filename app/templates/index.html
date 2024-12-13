@@ -2,13 +2,13 @@
 
 {% block content %}
     <main class="posts">
-        <ul>
+        <ul class="posts__ul">
             {% for post in posts %}
-                <li>
-                    <a href="{{ url_for('showPost', postId = post.id) }}">
+                <li class="posts__ul__post">
+                    <a class="posts__ul__post--link" href="{{ url_for('showPost', postId = post.id) }}">
                         {{ post.title.title()}}
                     </a>
-                    <p>{{ post.date }}</p>
+                    <span>{{ post.date }}</span>
                     <!-- <article  class="posts__article">
                     {{ post.content[0:200]   | safe }}
                     </article> -->

@@ -15,7 +15,7 @@
         <div class="wrapper">
             <header class="header">
                 <h1 class="header--title">
-                    <a href="/index.html">The Fig Tree</a>
+                    <a class="header__title--text" href="/index.html">The Fig Tree</a>
                 </h1>
                 <!-- <nav>
                     <a href="/index.html">Home</a>

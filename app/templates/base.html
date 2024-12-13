@@ -15,7 +15,7 @@
         <div class="wrapper">
             <header class="header">
                 <h1 class="header--title">
-                    <a href="{{ url_for('index')}}">The Fig Tree</a>
+                    <a class="header__title--text" href="{{ url_for('index')}}">The Fig Tree</a>
                 </h1>
                 <!-- <nav>
                     <a href="/index.html">Home</a>
@@ -23,6 +23,9 @@
             </header>
     
             {% block content %}{% endblock %}
+            <footer>
+                <span>© 2024 The Fig Tree</span>
+            </footer>
         </div>
     </body>
 </html>

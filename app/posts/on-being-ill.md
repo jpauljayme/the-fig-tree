@@ -1,0 +1,13 @@
+---
+id: 3
+title: "On Being Ill: With Notes from Sick Rooms by Julia Stephen"
+date: October 4, 2024
+---
+
+Virginia, in her constant battle with chronic illness, purposefully and without biases, knows the struggle of being in the burning territory of being ill, as a patient, whose isolation in their bed is unseen in the world,  their changing stories in permanent writing everyday, without knowledge when it will stop, thus stuck in this non-denouement story.
+
+There is no accurate depiction of what it feels to be in this shell. In diagnostic textbooks are marked with symptoms and tell-tale signs, but within the flesh and mind exists another world, purely your own, and gripping, crushing stones with your palms, to give out the words to wholly describe it is just as tenacious as the sickness itself. No amount of sympathy will quench the deserter that is our minds, for our bones have left us devoid of outward emotion, gripping us to only listen to the sounds of atrophy, the pulling of the nerves, a music that will never cease us to humanly rest, for there is no slumber enough to put us out of misery.
+
+In the words of her mother Julia Stephen are exacting view of the nursing women who have come upon it as a vocation, a Victorian model of a woman, an angel of the house caring for the sick and the temperament of the men, finding humility in the pain of the patient, a soft strength in their hushed bathing and clothing, always a spirit warmer in the randomness of bodily inflammation, and her life a constant calling for her helping hands to those in need. She is the epitome of selflessness, in this light I see how fleshed out her plight is, an accurate story of Woolf's family, for her mother was always away to help some distant cousin or aunt, and the only time she is ever truly present is when the children were sick!
+
+These two women, two sides of the same coin, the alienation of the patient, the other a purposeful eye of the caretaker looking through the volatile flesh of the sick, and I see the timely need for a unification of the narrative writing in medicine. As a person living with chronic pain everyday, the words are never enough to depict the lava flowing from the base of my neck, to the molds of my shoulders, and doctors are ever as clueless in providing right amounts of empathy and vulnerability. You need to see us in our own eyes, too. When I read this book again, I hope to find myself in narrative medicine's tenderness and help in the continuous search for human care.

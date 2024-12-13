@@ -47,8 +47,8 @@ h1{
     font-family: "Cormorant Garamond Bold";
 }
 
-p{
-    font-family: 'Source Code Pro';
+span, p, a{
+    font-family: 'Source Code Pro', sans-serif;
 }
 
 .wrapper{
@@ -60,9 +60,22 @@ p{
     background-color: #AFAD96;
 }
 
-.header--title{
+.header__title--text{
+    font-family: "Cormorant Garamond Bold", sans-serif;
     color: #605F4B;
 }
+
+.posts__ul__post{
+    display: grid;
+    margin-bottom: 20px;
+}
+
+
+/* POST.HTML */
+.post{
+    padding: 20px;
+}
+
 /* Laptop */
 @media (min-width: 760px) {
     

@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: "Source Code Pro Bold";
-    src: url("/static/font/SOurceCode-Pro-Bold.ttf") format("truetype");
+    src: url("/static/font/SOurceCodePro-Bold.ttf") format("truetype");
 }
 
 *{
@@ -47,22 +47,50 @@ h1{
     font-family: "Cormorant Garamond Bold";
 }
 
-p{
-    font-family: 'Source Code Pro';
+span, p, a{
+    font-family: 'Source Code Pro', sans-serif;
 }
 
 .wrapper{
     display: grid;
-    background-color: #EBE8E2;
+    background-color: #F5F5ED;
+    
 }
 
 .header{
     background-color: #AFAD96;
 }
 
-.header--title{
+.header__title--text{
+    font-family: "Cormorant Garamond Bold", sans-serif;
     color: #605F4B;
 }
+
+.posts__ul__post{
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.posts__ul__post--link{
+    color: #605F4B;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* POST.HTML */
+.post{
+    padding: 20px;
+}
+
+.post__article h2, h3 {
+    font-family: 'Source Code Pro Bold';
+}
+
 /* Laptop */
 @media (min-width: 760px) {
     
