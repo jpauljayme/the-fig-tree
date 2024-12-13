@@ -1,36 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-		
-            <title>Welcome to Microblog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>The Fig Tree</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/static/css/index.css">
         
-        <link rel="stylesheet" href="/static/index.css">
+        <!-- HTMX -->
+        <script src="/static/js/htmx.min.js" defer></script>
 	<head>
-    <body>
-        <header>
-            <h1>The Fig Tree</h1>
-            <nav>
-                <a href="/index.html">Home</a>
-            </nav>
-        </header>
-        <hr>
-        
+    <body hx-boost="true">
+        <div class="wrapper">
+            <header class="header">
+                <h1 class="header--title">
+                    <a href="/index.html">The Fig Tree</a>
+                </h1>
+                <!-- <nav>
+                    <a href="/index.html">Home</a>
+                </nav> -->
+            </header>
+    
+            
     <main class="posts">
-        
-        <article class="posts__article">
-            <h2>The Year of Magical Thinking by Joan Didion</h2>
+        <ul>
+            
+                <li>
+                    <a href="/post/1">
+                        The Year Of Magical Thinking By Joan Didion
+                    </a>
+                    <p>November 9, 2024</p>
+                    <!-- <article  class="posts__article">
+                    <h2>The Year of Magical Thinking by Joan Didion</h2>
 <h3>November 9, 2024</h3>
 <p>It started as a tender night of October 31, 2024, halloween on most places, me uncaring since I do not heed to such pr
-        </article>
-        
-        <article class="posts__article">
-            <h1>Kim-Jiyoung : Born 1982 by Cho Nam-joo</h1>
+                    </article> -->
+                </li>
+            
+                <li>
+                    <a href="/post/2">
+                        Kim-Jiyoung, Born 1982 By Cho Nam-Joo
+                    </a>
+                    <p>November 25, 2024</p>
+                    <!-- <article  class="posts__article">
+                    <h2>Kim-Jiyoung, Born 1982 by Cho Nam-joo</h2>
 <h3>November 25, 2024</h3>
-<p>I have written a list in my notepad but I'll spare you for tonight. The passivity in the text is maddening to me, languidl
-        </article>
-        
+<p>I have written a list in my notepad but I'll spare you for tonight. The passivity in the text is maddening to me, languidly
+                    </article> -->
+                </li>
+            
+        </ul>
     </main>
 
-        
+        </div>
     </body>
 </html>
