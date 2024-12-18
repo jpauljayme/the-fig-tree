@@ -36,6 +36,8 @@ body{
 
 ul{
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a{
@@ -43,11 +45,11 @@ a{
     color: black;
 }
 
-h1{
+h1, h2{
     font-family: "Cormorant Garamond Bold";
 }
 
-span, p, a{
+span, p, a, button{
     font-family: 'Source Code Pro', sans-serif;
 }
 
@@ -59,20 +61,45 @@ span, p, a{
 
 .header{
     background-color: #AFAD96;
+    margin-bottom: 3em;
+    text-align: center;
+    padding: 20px;
+}
+
+.header--title{
+    margin: 0;
 }
 
 .header__title--text{
     font-family: "Cormorant Garamond Bold", sans-serif;
     color: #605F4B;
+    font-size: 2em;
+}
+
+.header--subtitle{
+    margin: 0;
+}
+
+.posts{
+    padding: 30px;
 }
 
 .posts__ul__post{
     display: grid;
-    margin-bottom: 20px;
+    margin-bottom: 3em;
 }
 
 .posts__ul__post--link{
     color: #605F4B;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact--a{
+    text-decoration: underline;
 }
 
 footer{
@@ -81,9 +108,13 @@ footer{
     text-align: center;
 }
 
+button{
+    color: #605F4B;
+    font-weight: bold;
+}
 
 /* POST.HTML */
-.post{
+.post__article{
     padding: 20px;
 }
 
@@ -91,7 +122,15 @@ footer{
     font-family: 'Source Code Pro Bold';
 }
 
+.post__article--btn{
+    margin-top: 2em;
+}
+
 /* Laptop */
 @media (min-width: 760px) {
-    
+    #contact{
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
 }

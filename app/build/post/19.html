@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-        <title>The Fig Tree</title>
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="/static/css/index.css">
-        
-        <!-- HTMX -->
-        <script src="/static/js/htmx.min.js" defer></script>
-	</head>
-    <body hx-boost="true">
-        <div class="wrapper">
-            <header class="header">
-                <h1 class="header--title">
-                    <a class="header__title--text" href="/index.html">The Fig Tree</a>
-                </h1>
-                <!-- <nav>
-                    <a href="/index.html">Home</a>
-                </nav> -->
-            </header>
-    
-            
-<main class="post">
-    <article class="post__article">
-        <h2>Sophie's World by Jostein Gaarder</h2>
+<article class="post__article">
+    <h2>Sophie's World by Jostein Gaarder</h2>
 <h3>June 12, 2024</h3>
 <p>The world of philosophy, concerned with the ultimate questions of the universe, when seen from a casual eye, will scare and offer more riddles than clarity. Personally, setting a goal to read Existentialism, and to an extent its main writers - Camus, Sartre, Dostoevsky, is a task I seem to never start. Reading the first few pages from Myth of Sisyphus is as good as talking to a taciturn classmate - never declaring their intention intelligibly. How can I befriend them if I don’t have the knowledge of their history and the true nature of their heart?</p>
 <p>Without the reintroduction of Sophie’s World, I would be more lost than I was at the age of twenty one, spewing random know-hows on the absurd. The author’s historical, textbook approach on the tryst between man and existence is an effective tool to see the flow from Plato, to the Renaissance, and a slow climb into the summit of modern day Existentialism. I probably highlighted most of the passages as they capture the essence of their respective zeitgeists. </p>
@@ -34,12 +8,5 @@
 <p>Rating: 4 stars</p>
 <p>For more details on the book, click 
 <a href="https://app.thestorygraph.com/books/d564eb69-5066-4543-8a47-50ca1e57fedb" target="_blank" rel="noopener noreferrer">here</a> to view in Storygraph.</p>
-    </article>
-</main>
-
-            <footer>
-                <span>© 2024 The Fig Tree</span>
-            </footer>
-        </div>
-    </body>
-</html>
+    <button class="post__article--btn" hx-get="/index.html" hx-target="#posts">Go back</button>
+</article>

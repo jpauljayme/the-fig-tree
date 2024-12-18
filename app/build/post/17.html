@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-        <title>The Fig Tree</title>
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="/static/css/index.css">
-        
-        <!-- HTMX -->
-        <script src="/static/js/htmx.min.js" defer></script>
-	</head>
-    <body hx-boost="true">
-        <div class="wrapper">
-            <header class="header">
-                <h1 class="header--title">
-                    <a class="header__title--text" href="/index.html">The Fig Tree</a>
-                </h1>
-                <!-- <nav>
-                    <a href="/index.html">Home</a>
-                </nav> -->
-            </header>
-    
-            
-<main class="post">
-    <article class="post__article">
-        <h2>Pale Fire by Vladimir Nabokov</h2>
+<article class="post__article">
+    <h2>Pale Fire by Vladimir Nabokov</h2>
 <h3>April 27, 2024</h3>
 <p>My first Nabokov book, without knowing his idiosyncratic writing and mischievous protagonists, is a weird, whirlwind experience. It consists of a dramatic 999-line poem, written by John Shade, a distinguished poet at Wordsmith College, New Wye, and the obsession entailing his new neighbor and colleague Charles Kinbote, John’s alter-ego. Charles is always on the prowl for John’s whereabouts, his art, and an ardent desire for control, possession, and validation from Shade's work, a manifestation of deeper psychological and possibly sexual impulses. A commentary is intertwined within the poem’s structure, basing on Kinbote’s own interpretations, both personal, a story of a Zemblan king, and the colorful passages of a revolution revolving the figure. </p>
 <p>I was unnerved by Sybil, John’s dear wife, on her indifference and secretive responses to Charles, but it is probably her intuition in guarding her marriage and the husband’s art. The narrator seemed to wash out the confines of the timeline, for I have even forgotten that he was a recent alien in the neighborhood. </p>
@@ -34,12 +8,5 @@
 <p>Rating: 5 stars</p>
 <p>For more details on the book, click 
 <a href="https://app.thestorygraph.com/books/57e9293a-7cdd-408b-829c-8c79b0ac5f4c" target="_blank" rel="noopener noreferrer">here</a> to view in Storygraph.</p>
-    </article>
-</main>
-
-            <footer>
-                <span>© 2024 The Fig Tree</span>
-            </footer>
-        </div>
-    </body>
-</html>
+    <button class="post__article--btn" hx-get="/index.html" hx-target="#posts">Go back</button>
+</article>

@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-        <title>The Fig Tree</title>
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="/static/css/index.css">
-        
-        <!-- HTMX -->
-        <script src="/static/js/htmx.min.js" defer></script>
-	</head>
-    <body hx-boost="true">
-        <div class="wrapper">
-            <header class="header">
-                <h1 class="header--title">
-                    <a class="header__title--text" href="/index.html">The Fig Tree</a>
-                </h1>
-                <!-- <nav>
-                    <a href="/index.html">Home</a>
-                </nav> -->
-            </header>
-    
-            
-<main class="post">
-    <article class="post__article">
-        <h2>Hunger by Knut Hamsun</h2>
+<article class="post__article">
+    <h2>Hunger by Knut Hamsun</h2>
 <h3>April 17, 2024</h3>
 <p>In a moment of wanting to let feelings pass by, an eye of the storm, me the city of Kansas, searching for bread that could fix my hunger. Lying in my shelf was Knut Hamsun’s similar fate, calling me to read him, pulling me from shallow waters.</p>
 <p>An autobiography, the life of a failed writer coming from a flop in America, to his life as a wanderer in the cold streets, and a battle with extreme poverty and hunger. Despite the situation, his honor defers him from seeking help, after countless refusals from friends. Concealing the nature of his pain is his respectful, pious attitude towards the citizens of his locality, honorifics let to right, and an image of truthful labor. He has done everything from vacating his rental room and selling his only garments in an attempt to stave off the gnawing hunger and to write his piece in the newspaper that could provide him ten kroner. </p>
@@ -35,12 +9,5 @@
 <p>Rating: 5 stars</p>
 <p>For more details on the book, click 
 <a href="https://app.thestorygraph.com/books/6103c2f7-b75f-47b4-9b92-05811d586656" target="_blank" rel="noopener noreferrer">here</a> to view in Storygraph.</p>
-    </article>
-</main>
-
-            <footer>
-                <span>© 2024 The Fig Tree</span>
-            </footer>
-        </div>
-    </body>
-</html>
+    <button class="post__article--btn" hx-get="/index.html" hx-target="#posts">Go back</button>
+</article>
