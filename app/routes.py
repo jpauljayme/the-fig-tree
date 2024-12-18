@@ -1,6 +1,7 @@
-from flask import render_template
+from flask import render_template, request
 from app import app
 from . import htmx
+import logging
 
 import os
 import markdown
@@ -8,6 +9,7 @@ import frontmatter
 
 from app.model.Post import Post
 
+logging.basicConfig(level=logging.DEBUG)
 
 def load_posts():
     posts = []
@@ -34,9 +36,12 @@ posts = load_posts()
 @app.route("/")
 @app.route("/index.html")
 def index():
-    if htmx:
+    logging.debug(f"Headers: {request.headers}")
+    if request.headers.get("HX-Request"):
+        logging.debug("HTMX request detected")
         return render_template("/partials/posts.html", posts=posts)
     
+    logging.debug("Standard request")
     return render_template("index.html", posts=posts)
 
 
