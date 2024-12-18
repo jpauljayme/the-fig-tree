@@ -15,8 +15,11 @@
         <div class="wrapper">
             <header class="header">
                 <h1 class="header--title">
-                    <a class="header__title--text" href="{{ url_for('index')}}">The Fig Tree</a>
+                    <a class="header__title--text" href="{{ url_for('index')}}" 
+                        hx-target="#posts"
+                    >The Fig Tree</a>
                 </h1>
+                <h2 class="header--subtitle">Reviews on culture, one fruit at a time. </h2>
                 <!-- <nav>
                     <a href="/index.html">Home</a>
                 </nav> -->

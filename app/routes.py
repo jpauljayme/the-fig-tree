@@ -1,5 +1,6 @@
 from flask import render_template
 from app import app
+from . import htmx
 
 import os
 import markdown
@@ -33,10 +34,13 @@ posts = load_posts()
 @app.route("/")
 @app.route("/index.html")
 def index():
+    if htmx:
+        return render_template("/partials/posts.html", posts=posts)
+    
     return render_template("index.html", posts=posts)
 
 
 @app.route("/post/<int:postId>.html")
 def showPost(postId):
     found = next((post for post in posts if post.id == postId))
-    return render_template("post.html", post = found)
+    return render_template("/partials/post.html", post = found)

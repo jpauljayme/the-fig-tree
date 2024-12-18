@@ -59,6 +59,20 @@ async = ["asgiref (>=3.2)"]
 dotenv = ["python-dotenv"]
 
 [[package]]
+name = "flask-htmx"
+version = "0.4.0"
+description = "A Flask extension to work with HTMX."
+optional = false
+python-versions = "<4.0,>=3.8"
+files = [
+    {file = "flask_htmx-0.4.0-py3-none-any.whl", hash = "sha256:ac0ef976638bc635537a47c4ae622c91aef1e69d8bf52880aa9ae0db089ce7d2"},
+    {file = "flask_htmx-0.4.0.tar.gz", hash = "sha256:2d367fb27c8da99d031a0c566b7e562637139722e2d4e8ec67c7f941addb22fd"},
+]
+
+[package.dependencies]
+Flask = ">=2.0.2,<4.0.0"
+
+[[package]]
 name = "frozen-flask"
 version = "1.0.2"
 description = "Freezes a Flask application into a set of static files."
@@ -290,4 +304,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "3676859391eeee1201ec8f101db6f6e1075ba4377ba1831db41203783f1cbd24"
+content-hash = "d603d2a5d4f2da8b6b7d16a1f6184e33bfc444d04c44d735bfa42ee20c18f4fa"

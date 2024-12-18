@@ -43,11 +43,11 @@ a{
     color: black;
 }
 
-h1{
+h1, h2{
     font-family: "Cormorant Garamond Bold";
 }
 
-span, p, a{
+span, p, a, button{
     font-family: 'Source Code Pro', sans-serif;
 }
 
@@ -59,6 +59,11 @@ span, p, a{
 
 .header{
     background-color: #AFAD96;
+    margin-bottom: 3em;
+}
+
+.header--title{
+    margin: 0;
 }
 
 .header__title--text{
@@ -66,9 +71,13 @@ span, p, a{
     color: #605F4B;
 }
 
+.header--subtitle{
+    margin: 0;
+}
+
 .posts__ul__post{
     display: grid;
-    margin-bottom: 20px;
+    margin-bottom: 3em;
 }
 
 .posts__ul__post--link{
@@ -81,14 +90,22 @@ footer{
     text-align: center;
 }
 
+button{
+    color: #605F4B;
+    font-weight: bold;
+}
 
 /* POST.HTML */
-.post{
+.post__article{
     padding: 20px;
 }
 
 .post__article h2, h3 {
     font-family: 'Source Code Pro Bold';
+}
+
+.post__article--btn{
+    margin-top: 2em;
 }
 
 /* Laptop */

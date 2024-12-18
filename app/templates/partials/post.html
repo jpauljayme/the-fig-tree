@@ -1,0 +1,4 @@
+<article class="post__article">
+    {{ post.content | safe }}
+    <button class="post__article--btn" hx-get="{{ url_for('index')}}" hx-target="#posts">Go back</button>
+</article>
